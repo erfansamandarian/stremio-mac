@@ -14,7 +14,6 @@ chmod +w $DEST_DIR/ffprobe
 chmod +w $DEST_DIR/node
 
 mkdir -p ./stremio.app/Contents/Frameworks
-cp ./deps/libmpv/mac/lib/*.dylib ./stremio.app/Contents/Frameworks/
 
 # https://bugreports.qt.io/browse/QTBUG-57265
 # you don't want to be using always-overwrite in any version until Qt 5.11.3
