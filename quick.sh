@@ -19,8 +19,9 @@ homebrew_lnk="Linking Homebrew dependencies..."
 running_qmak="Running qmake..."
 running_cmak="Running cmake..."
 building_cmk="Building with cmake..."
-running_finl="Running finalize.sh"
-running_pack="Running pack.sh"
+running_finl="Running finalize.sh..."
+running_pack="Running pack.sh..."
+extract_inst="Extracting and installing the application..."
 
 print_message "$github_get"
 # Get project and make install.sh executable
@@ -69,3 +70,7 @@ chmod +x ./mac/finalize.sh && sudo ./mac/finalize.sh
 print_message "$running_pack"
 # Run ./mac/pack.sh
 chmod +x ./mac/pack.sh && sudo ./mac/pack.sh
+
+print_message "$extract_inst"
+# Extract and copy the application from the dmg
+hdiutil attach stremio-mac/Stremio\ 4.4.168.dmg && cp -r /Volumes/Stremio\ 4.4.168/Stremio.app /Applications/ && hdiutil detach stremio-mac/Stremio\ 4.4.168.dmg

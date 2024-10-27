@@ -18,8 +18,8 @@ homebrew_lnk="Linking Homebrew dependencies..."
 running_qmak="Running qmake..."
 running_cmak="Running cmake..."
 building_cmk="Building with cmake..."
-running_finl="Running finalize.sh"
-running_pack="Running pack.sh"
+running_finl="Running finalize.sh..."
+running_pack="Running pack.sh..."
 
 print_message "$github_upd"
 # Update GitHub submodules 
