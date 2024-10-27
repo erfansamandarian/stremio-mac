@@ -73,4 +73,4 @@ chmod +x ./mac/pack.sh && sudo ./mac/pack.sh
 
 print_message "$extract_inst"
 # Extract and copy the application from the dmg
-hdiutil attach stremio-mac/Stremio\ 4.4.168.dmg && cp -r /Volumes/Stremio\ 4.4.168/Stremio.app /Applications/ && hdiutil detach /Volumes/Stremio\ 4.4.168
+hdiutil attach Stremio\ 4.4.168.dmg && cp -r /Volumes/Stremio\ 4.4.168/Stremio.app /Applications/ && hdiutil detach /Volumes/Stremio\ 4.4.168
