@@ -45,7 +45,7 @@ brew install --cask qt-creator
 
 print_message "$install_appd"
 # Ensure appdmg is installed
-npm install appdmg
+npm install -g appdmg
 
 print_message "$homebrew_lnk"
 # Link Homebrew dependencies
