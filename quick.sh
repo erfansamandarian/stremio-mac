@@ -49,7 +49,7 @@ npm install -g appdmg
 
 print_message "$homebrew_lnk"
 # Link Homebrew dependencies
-brew unlink openssl && brew link --force openssl --force && brew unlink qt@5 && brew link --force qt@5
+brew unlink openssl && brew link --force openssl --force && brew unlink qt@5 && brew link --force qt@5 && brew unlink node@18 && brew link --force node@18
 
 print_message "$running_qmak"
 # Run qmake
