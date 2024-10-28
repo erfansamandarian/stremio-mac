@@ -31,7 +31,7 @@ brew update && brew upgrade && brew autoremove && brew cleanup
 
 print_message "$homebrew_dep"
 # Install Homebrew dependencies
-brew install openssl mpv ffmpeg node cmake qt@5 node npm
+brew install openssl mpv ffmpeg node cmake qt@5
 
 print_message "$homebrew_cas"
 # Install Homebrew cask dependencies
