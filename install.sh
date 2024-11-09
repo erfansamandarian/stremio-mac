@@ -43,11 +43,7 @@ npm install -g appdmg
 
 print_message "$homebrew_lnk"
 # Link Homebrew dependencies
-brew unlink openssl && brew link --force openssl --force && brew unlink qt@5 && brew link --force qt@5 && brew unlink node@18 && brew link --force node@18
-
-echo 'export PATH="/opt/homebrew/opt/node@18/bin:$PATH"' >> ~/.zshrc
-
-echo 'export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"' >> ~/.zshrc
+brew unlink openssl && brew link --force openssl && brew unlink qt@5 && brew link --force qt@5 && brew unlink node@18 && brew link --force node@18 && echo 'export PATH="/opt/homebrew/opt/node@18/bin:$PATH"' >> ~/.zshrc && echo 'export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"' >> ~/.zshrc
 
 print_message "$running_qmak"
 # Run qmake
