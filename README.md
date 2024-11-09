@@ -12,6 +12,8 @@ Download DMG: https://github.com/erfansamandarian/stremio-mac/releases/download/
 
 Install dependencies: `brew install mpv node qt@5 ffmpeg openssl@3`
 
+Run: `sudo xattr -r -d com.apple.quarantine /Applications/Stremio.app`
+
 ## Installation with Script
 
 ### Quicker
