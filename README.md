@@ -6,7 +6,13 @@
 
 </div>
 
-## Installation
+## Installation with DMG
+
+Download DMG: https://github.com/erfansamandarian/stremio-mac/releases/download/v4.4.168/Stremio.4.4.168.dmg
+
+Install dependencies: `brew install mpv node qt@5 ffmpeg openssl@3`
+
+## Installation with Script
 
 ### Quicker
 
