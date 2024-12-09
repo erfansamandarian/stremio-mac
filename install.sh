@@ -31,7 +31,7 @@ brew update && brew upgrade && brew autoremove && brew cleanup
 
 print_message "$homebrew_dep"
 # Install Homebrew dependencies
-brew install openssl mpv ffmpeg node@18 cmake qt@5
+brew install openssl mpv ffmpeg node@22 cmake qt@5
 
 print_message "$homebrew_cas"
 # Install Homebrew cask dependencies
@@ -43,7 +43,7 @@ npm install -g appdmg
 
 print_message "$homebrew_lnk"
 # Link Homebrew dependencies
-brew unlink openssl && brew link --overwrite openssl && brew unlink qt@5 && brew link --overwrite qt@5 && brew unlink node@18 && brew link --overwrite node@18 && echo 'export PATH="/opt/homebrew/opt/node@18/bin:$PATH"' >> ~/.zshrc && echo 'export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"' >> ~/.zshrc
+brew unlink openssl && brew link --overwrite openssl && brew unlink qt@5 && brew link --overwrite qt@5 && brew unlink node@22 && brew link --overwrite node@22 && echo 'export PATH="/opt/homebrew/opt/node@22/bin:$PATH"' >> ~/.zshrc && echo 'export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"' >> ~/.zshrc
 
 print_message "$running_qmak"
 # Run qmake
