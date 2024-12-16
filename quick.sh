@@ -22,6 +22,7 @@ building_cmk="Building with cmake..."
 running_finl="Running finalize.sh..."
 running_pack="Running pack.sh..."
 extract_inst="Extracting and installing the application..."
+uninstall_dep="Uninstalling unnecessary dependencies..."
 
 print_message "$github_get"
 # Get project and make install.sh executable
@@ -74,3 +75,7 @@ chmod +x ./mac/pack.sh && sudo ./mac/pack.sh
 print_message "$extract_inst"
 # Extract and copy the application from the dmg
 hdiutil attach Stremio\ 4.4.168.dmg && cp -r /Volumes/Stremio\ 4.4.168/Stremio.app /Applications/ && hdiutil detach /Volumes/Stremio\ 4.4.168
+
+print_message "$uninstall_dep"
+# Uninstall unnecessary dependencies
+brew uninstall --cask qt-creator
