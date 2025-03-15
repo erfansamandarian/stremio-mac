@@ -6,10 +6,6 @@
 
 </div>
 
-## Real Debrid
-
-<a href="http://real-debrid.com/?id=11930222" title="Real-Debrid"><img src="http://real-debrid.com/static/images/banner/en.png" /></a>
-
 ## Installation with DMG
 
 Download DMG:
