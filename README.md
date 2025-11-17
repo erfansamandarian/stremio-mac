@@ -1,9 +1,3 @@
-# Update
-
-icu4c@75 has been disabled in brew, you could still install it by tapping into homebrew core but ain't nobody got time for that
-
-i'll update to fix this when i have time :)
-
 # Stremio for Apple Silicon 
 
 <div align="center">
