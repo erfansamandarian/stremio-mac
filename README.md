@@ -51,7 +51,7 @@ https://github.com/erfansamandarian/stremio-mac/releases/download/v4.4.169/Strem
 
 Install dependencies:
 ```sh
-brew install mpv node qt@5 ffmpeg openssl@3 icu4c@75
+brew install mpv node qt@5 ffmpeg openssl@3
 ```
 
 Run: 
