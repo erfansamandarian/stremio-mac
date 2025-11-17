@@ -53,7 +53,7 @@ chmod +x install.sh
 ## Installation with DMG
 
 Download DMG:
-https://github.com/erfansamandarian/stremio-mac/releases/download/v4.4.168/Stremio.4.4.168.dmg
+https://github.com/erfansamandarian/stremio-mac/releases/download/v4.4.169/Stremio.4.4.169.dmg
 
 Install dependencies:
 ```sh
